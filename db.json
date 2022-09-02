@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "name": "Página web ecommerce",
+      "budget": "5000",
+      "categories": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 4700,
+      "services": [
+        {
+          "Name": "Desenvolvedor frontEnd Junior",
+          "Cost": "2500",
+          "Description": "Desenvolver o frontend da page",
+          "id": "31e6cb30-4116-439e-948c-0b17a7605ffa"
+        },
+        {
+          "Name": "Serviço 2",
+          "Cost": "1000",
+          "Description": "Descrição",
+          "id": "df37247c-55ec-41bb-8a4f-cc553a4ce9e8"
+        },
+        {
+          "Name": "serviço 3",
+          "Cost": "1200",
+          "Description": "Descrição 3",
+          "id": "ad62d00b-16ef-4c34-9375-ed36d9844484"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Banco de dados relacional",
+      "budget": "7000",
+      "categories": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Projeto de testes",
+      "budget": "3000",
+      "categories": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Teste 2",
+      "budget": "10000",
+      "categories": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

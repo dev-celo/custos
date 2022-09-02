@@ -1,0 +1,99 @@
+.project_card {
+  padding: 1rem;
+  border: 1px solid var(--blue-details);
+  border-radius: .5rem;
+  width: 24%;
+  margin: .5%;
+}
+
+.project_card h4 {
+  background-color: var(--background-secondary);
+  color: var(--blue-details);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.project_card p {
+  color: #FFF;
+  margin-bottom: 1.3rem;
+}
+
+.project_card p span {
+  font-weight: bold;
+}
+
+.category_text {
+  display: flex;
+  align-items: center;
+}
+
+.category_text span {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.6rem;
+  background-color: var(--background-circle-cards);
+  margin-right: .5rem;
+}
+
+
+.category_text .infra {
+  background-color: var(--background-circle-infra)
+}
+
+.category_text .desenvolvimento {
+  background-color: var(  --background-circle-desenvolvimento)
+}
+
+.category_text .design {
+  background-color: var(  --background-circle-design);
+}
+
+.category_text .planejamento {
+  background-color: var(--background-circle-planejamento);
+}
+
+.project_card_actions {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.project_card_actions a,
+.project_card_actions button {
+  text-decoration: none;
+  border: none;
+  background-color: #fff;
+  color: var(--background-secondary);
+  font-size: 1.2rem;
+  padding: .8rem 1.2rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  border: 1px solid var(--background);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: var(--transition);
+}
+
+.project_card_actions svg {
+  margin-right: .8rem;
+}
+
+.project_card_actions a:hover{
+  background-color: var(--blue-details);
+  color: #FFF;
+}
+.project_card_actions button:hover {
+  background-color: var(--red-details);
+  color: #FFF;
+}
+
+@media screen and (max-width: 992px) {
+  .project_card {
+    width: 90%;
+  }
+}

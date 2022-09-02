@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+html, 
+body, 
+#root {
+  background-color: var(--background);
+  color: var(--color-fonts);
+  font-weight: 400;
+  font-size: 1.4rem;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: .8em;
+}
+
+/* Root */
+
+:root {
+  --background: hsl(203, 6%, 26%);
+  --background-circle-cards: hsl(206, 4%, 66%);
+  --background-circle-infra: hsl(57, 89%, 76%);
+  --background-circle-desenvolvimento: hsl(115, 70%, 65%);
+  --background-circle-design: hsl(206, 42%, 40%);
+  --background-circle-planejamento: hsl(15, 73%, 67%);
+  --background-secondary: hsl(200, 7%, 8%);
+  --blue-details: hsl(200, 87%, 43%);
+  --red-details: hsl(0, 83%, 51%);
+  --ciano-details: rgb(141, 249, 206);
+  --color-message-succes: hsl(134, 61%, 21%);
+  --color-message-error: hsl(354, 61%, 28%);
+
+  --color-fonts: hsl(0, 0%, 100%);
+  --color-font-secondary: hsl(200, 3%, 40%);
+
+  --transition: all 400ms ease;
+
+  font-size: 62.5%; /* 62.5% = 10px */
+}
+@media screen and (max-width: 992px) {
+  ::webkit-scrollbar {
+    display: none;
+  }
+}

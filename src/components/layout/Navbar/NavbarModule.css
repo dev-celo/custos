@@ -1,0 +1,120 @@
+#openBar {
+  display: none;
+}
+
+#closeBar {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  background-color: var(--background-secondary);
+  padding: 1rem;
+}
+
+.container {
+  width: 90%;
+}
+
+.logo {
+  width: 17rem;
+}
+
+.container_list {
+  display: flex;  
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list a {
+  margin-right: 1rem;
+}
+
+.item a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.item a:hover {
+  transition: var(--transition);
+  color: var(--blue-details);
+}
+
+/* Media queries */
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+  #openBar {
+    display: flex;
+    align-items: center;
+  }
+
+  #closeBar {
+    display: block;
+  }
+
+  #closeBar {
+    position: fixed;
+    margin-left: 2rem;
+    margin-top: -3rem;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    top: 0;
+    right: -30rem;
+    height: 100vh;
+    width: 30rem;
+
+    background-color: var(--background);
+    padding: 8rem 0 0 1rem;
+
+    transition: all 400ms ease-out;
+  }
+
+  .item {
+    margin-left: 2rem;
+    letter-spacing: .15rem;
+    font-weight: 600;
+    margin-bottom: 1REM;
+  }
+
+  .list.active {
+    right: 0rem;
+    box-shadow: 0 4rem 6rem rgb(0,0, 0.2);
+  }
+
+  .openBar {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+  }
+
+  .closeBar {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+  }
+
+  .openBar:hover {
+    color: var(--blue-details);
+  }
+
+  .closeBar:hover {
+    color: var(--blue-details);
+  }
+}
+
+/* On screens that are 600px or less, */
+@media screen and (max-width: 600px) {
+  
+}

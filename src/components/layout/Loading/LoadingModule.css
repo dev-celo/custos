@@ -1,0 +1,12 @@
+.container_loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.loader {
+  width: 10rem;
+}

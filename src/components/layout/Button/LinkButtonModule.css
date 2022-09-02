@@ -1,0 +1,11 @@
+.btn {
+  background: var(--background-secondary);
+  color: #fff;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--blue-details);
+}

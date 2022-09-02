@@ -1,0 +1,65 @@
+.contact {
+    width: 100%;
+    margin-top: 5rem;
+}
+.contact .container_contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.adress {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    padding: 0 3rem 3rem 3rem;
+}
+
+.adress span {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.other_contacts {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.social_list {
+    display: flex;
+    gap: 1.5rem;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    border-radius: .3rem;
+}
+
+textarea:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+/* Media queries */
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+    html, 
+    body, 
+    #root {
+        overflow-x: hidden;
+    }
+    .contact .container_contact {
+        flex-direction: column;
+    }
+    .adress {
+        width: 100%;
+    }
+    .iframe {
+        width: 100%;
+    }
+  }

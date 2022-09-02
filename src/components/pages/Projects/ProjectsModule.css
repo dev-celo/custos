@@ -1,0 +1,31 @@
+.project_container {
+  width: 120rem;
+  padding: 2.5rem;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2.5rem;
+}
+
+/* Media queries */
+/* On screens that are 992px or less */
+@media screen and (max-width: 992px) {
+  .project_container .start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* On screens that are 600px or less, */
+@media screen and (max-width: 634px) {
+  .project_container .start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,14 @@
+.btn {
+  background-color: var(--background-secondary);
+  color: #fff;
+  padding: 1.22rem;
+  text-decoration: none;
+  transition: var(--transition);
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover{
+  background: var(--blue-details);
+}
