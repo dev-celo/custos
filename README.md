@@ -16,11 +16,14 @@ Você também poderá ver os erros no console.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Construir aplicação para produção, ficará salvo os arquivos na pasta `dist`.\
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+
+Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
+
+A compilação é minificada e os nomes dos arquivos incluem os hashes.\
+
+Seu aplicativo está pronto para ser implantado!
 
 ### `yarn eject`
 
