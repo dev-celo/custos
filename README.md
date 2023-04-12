@@ -1,20 +1,36 @@
 # Custos
 
-# Começando a aplicação com Create React Vite
+# Começando a aplicação com GIT
 
-# Para rodar os Scripts
+Você pode clonar o repositório com o seguinte comando via SSH
 
-No diretório do projeto você pode rodar o seguinte comando
+``git clone git@github.com:dev-celo/custos.git``
 
-### `run dev`
+Entre na pasta que você clonou o projeto, por exemplo:
 
-Execute o aplicativo em modo desenvolvimento.\
+### Desktop/custos
+`cd Desktop/custos`
+
+E por fim execute:
+`code .`
+
+## Instalação dos pacotes npm
+*Uma vez dentro do vs code você pode instalar as dependências com:*
+`Npm install`
+
+## Para rodar os Scripts
+
+``No diretório do projeto você pode rodar o seguinte comando``
+
+### `npm run dev`
+
+Execute o aplicativo em modo desenvolvimento.
 Voce pode abrir [http://localhost:3000](http://localhost:3000) Para ver no navegador.
 
 A página recarregará quando edições forem feitas..\
 Você também poderá ver os erros no console.
 
-### `yarn build`
+### `npm yarn build`
 
 Construir aplicação para produção, ficará salvo os arquivos na pasta `dist`.\
 
@@ -25,7 +41,7 @@ A compilação é minificada e os nomes dos arquivos incluem os hashes.\
 
 Seu aplicativo está pronto para ser implantado!
 
-### `yarn eject`
+### `npm yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
