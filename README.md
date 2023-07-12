@@ -1,52 +1,63 @@
 # Custos
+Custos é um projeto desenvolvido para auxiliar no controle de despesas e receitas pessoais. Com ele, os usuários podem registrar suas transações financeiras, categorizá-las e acompanhar seus gastos e ganhos ao longo do tempo. O projeto foi criado com o objetivo de fornecer uma solução simples e intuitiva para o gerenciamento financeiro pessoal.
+## Funcionalidades
 
-# Começando a aplicação com GIT
+- Registro de Transações: Os usuários podem adicionar suas despesas e receitas, especificando a categoria, descrição e valor.
+- Categorização Automática: O sistema categoriza automaticamente as transações com base nas informações fornecidas, facilitando a visualização e análise dos gastos e ganhos.
+- Visão Geral: Os usuários têm acesso a uma visão geral dos seus gastos e ganhos, incluindo gráficos e estatísticas para uma melhor compreensão de seus hábitos financeiros.
+- Histórico de Transações: O projeto permite aos usuários visualizar um histórico completo de todas as transações registradas, possibilitando uma análise detalhada.
+- Responsividade: O Custos é projetado para funcionar de forma responsiva em diferentes dispositivos, como desktops, tablets e smartphones.
 
-Você pode clonar o repositório com o seguinte comando via SSH
+## Como usar
+## Uso/Exemplos
 
-``git clone git@github.com:dev-celo/custos.git``
+```
+py code
+📋 Clone este repositório para o seu computador:
+git clone https://github.com/dev-celo/custos.git
+```
+Acesse o diretório do projeto:
+```
+cd custos
+```
+🔧 Instale as dependências do projeto:
+```
+npm install
+```
+Inicie a aplicação:
+```
+npm run dev
+```
+Abra seu navegador e acesse o endereço:
+```
+http://localhost:3000
+```
+## Construído com
 
-Entre na pasta que você clonou o projeto, por exemplo:
+- React: Uma biblioteca JavaScript para construção de interfaces de usuário.
+- Redux: Uma biblioteca para gerenciamento de estado em aplicações JavaScript.
+- Styled Components: Uma biblioteca para estilizar componentes React com CSS-in-JS.
+- Firebase: Uma plataforma de desenvolvimento de aplicativos web.
 
-### Desktop/custos
-`cd Desktop/custos`
+## 🖇️ Colaborando
+Contribuições são bem-vindas! Se você quiser contribuir com o projeto, siga as etapas abaixo:
 
-E por fim execute:
-`code .`
+`Fork este repositório.`
 
-## Instalação dos pacotes npm
-*Uma vez dentro do vs code você pode instalar as dependências com:*
-`Npm install`
+- Crie uma branch para a sua contribuição: git checkout -b minha-contribuicao.
+- Faça as alterações desejadas e faça commit das mesmas: git commit -m 'Minha contribuição'.
+- Envie as alterações para o repositório remoto: git push origin minha-contribuicao.
+- Abra um pull request no repositório original.
+## Licença
 
-## Para rodar os Scripts
-
-``No diretório do projeto você pode rodar o seguinte comando``
-
-### `npm run dev`
-
-Execute o aplicativo em modo desenvolvimento.
-Voce pode abrir [http://localhost:3000](http://localhost:3000) Para ver no navegador.
-
-A página recarregará quando edições forem feitas..\
-Você também poderá ver os erros no console.
-
-### `npm yarn build`
-
-Construir aplicação para produção, ficará salvo os arquivos na pasta `dist`.\
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
-Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
+## Contato
 
-A compilação é minificada e os nomes dos arquivos incluem os hashes.\
+Se você tiver alguma dúvida ou sugestão, entre em contato com o desenvolvedor:
 
-Seu aplicativo está pronto para ser implantado!
-
-### `npm yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Nome: Marcelo Silva
+- Email: marcelohenrique.backend@gmail.com
+- github: https://github.com/dev-celo
+- linkedin: https://www.linkedin.com/in/devcelo/
