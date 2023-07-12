@@ -9,7 +9,7 @@ const Company = () => {
           O Custos é um gerenciador de projetos, onde tem por finalidade gerenciar os custos de projetos.
           Vôce pode criar um projeto e definir um valor de orçamento para o mesmo.
           <br/>
-          Logo depois ficará disponível para adição de serviços dentro de um projeto!
+          Logo depois ficará disponível para adição de serviços dentro de um projeto.
           <br/>
           Além disso você pode editar projetos já criados, excluir projetos e ainda pode excluir serviços dentro do projeto!
         </p>
